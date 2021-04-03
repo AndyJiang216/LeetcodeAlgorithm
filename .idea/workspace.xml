@@ -18,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,6 +29,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1pYX936vzpuThCd71UZdZvOfzFa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,14 +46,41 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.binaryTreeCommonlyAL">
+  <component name="RunManager" selected="Application.greedy">
     <configuration name="binaryTreeCommonlyAL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jianglong.binaryTree.binaryTreeCommonlyAL" />
       <module name="AlgorithmRelearnInJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.jianglong.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doublePointers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LeetCodeHighFrequency.doublePointers.doublePointers" />
+      <module name="AlgorithmRelearnInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LeetCodeHighFrequency.doublePointers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.LeetCodeHighFrequency.greedy.greedy" />
+      <module name="AlgorithmRelearnInJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.LeetCodeHighFrequency.greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,39 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linkedListImplStackAndQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jianglong.linearListAL.linkedListImplStackAndQueue" />
-      <module name="AlgorithmRelearnInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jianglong.linearListAL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="stackAndQueueAL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jianglong.linearListAL.stackAndQueueAL" />
-      <module name="AlgorithmRelearnInJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jianglong.linearListAL.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.greedy" />
+        <item itemvalue="Application.doublePointers" />
         <item itemvalue="Application.binaryTreeCommonlyAL" />
         <item itemvalue="Application.hashTableAL" />
         <item itemvalue="Application.linkedListAL" />
-        <item itemvalue="Application.stackAndQueueAL" />
-        <item itemvalue="Application.linkedListImplStackAndQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +152,8 @@
       <workItem from="1615878155357" duration="122509000" />
       <workItem from="1616719067922" duration="23304000" />
       <workItem from="1616977905651" duration="51954000" />
-      <workItem from="1617237537412" duration="1372000" />
+      <workItem from="1617237537412" duration="42251000" />
+      <workItem from="1617424908033" duration="7300000" />
     </task>
     <servers />
   </component>
@@ -155,62 +161,66 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1003" y="182" key="#Notifications" timestamp="1617245032857">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1003" y="182" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1617245032857" />
     <state x="552" y="182" key="#Project_Structure" timestamp="1615360891799">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1615360891799" />
-    <state x="1186" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1616980734266">
+    <state x="1186" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1617329931549">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1186" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1616980734266" />
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1615793292719">
+    <state x="1186" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1617329931549" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1617243836179">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615793292719" />
-    <state width="965" height="279" key="GridCell.Tab.0.bottom" timestamp="1617179387277">
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617243836179" />
+    <state width="965" height="278" key="GridCell.Tab.0.bottom" timestamp="1617429846306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1032" height="281" key="GridCell.Tab.0.bottom/0.0.1280.760@0.0.1280.760" timestamp="1615876665408" />
-    <state width="965" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617179387277" />
-    <state width="965" height="279" key="GridCell.Tab.0.center" timestamp="1617179387277">
+    <state width="965" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617429846306" />
+    <state width="965" height="278" key="GridCell.Tab.0.center" timestamp="1617429846306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1032" height="281" key="GridCell.Tab.0.center/0.0.1280.760@0.0.1280.760" timestamp="1615876665408" />
-    <state width="965" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617179387277" />
-    <state width="965" height="279" key="GridCell.Tab.0.left" timestamp="1617179387277">
+    <state width="965" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617429846306" />
+    <state width="965" height="278" key="GridCell.Tab.0.left" timestamp="1617429846306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1032" height="281" key="GridCell.Tab.0.left/0.0.1280.760@0.0.1280.760" timestamp="1615876665408" />
-    <state width="965" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617179387277" />
-    <state width="965" height="279" key="GridCell.Tab.0.right" timestamp="1617179387277">
+    <state width="965" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617429846306" />
+    <state width="965" height="278" key="GridCell.Tab.0.right" timestamp="1617429846306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1032" height="281" key="GridCell.Tab.0.right/0.0.1280.760@0.0.1280.760" timestamp="1615876665408" />
-    <state width="965" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617179387277" />
-    <state width="1041" height="347" key="GridCell.Tab.1.bottom" timestamp="1616660804547">
+    <state width="965" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617429846306" />
+    <state width="965" height="346" key="GridCell.Tab.1.bottom" timestamp="1617429821166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1041" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616660804547" />
-    <state width="1041" height="347" key="GridCell.Tab.1.center" timestamp="1616660804547">
+    <state width="965" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1617429821166" />
+    <state width="965" height="346" key="GridCell.Tab.1.center" timestamp="1617429821166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1041" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616660804547" />
-    <state width="1041" height="347" key="GridCell.Tab.1.left" timestamp="1616660804547">
+    <state width="965" height="346" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1617429821166" />
+    <state width="965" height="346" key="GridCell.Tab.1.left" timestamp="1617429821166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1041" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616660804547" />
-    <state width="1041" height="347" key="GridCell.Tab.1.right" timestamp="1616660804547">
+    <state width="965" height="346" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1617429821166" />
+    <state width="965" height="346" key="GridCell.Tab.1.right" timestamp="1617429821166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1041" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616660804547" />
-    <state x="440" y="98" key="SettingsEditor" timestamp="1615361113517">
+    <state width="965" height="346" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1617429821166" />
+    <state x="440" y="98" key="SettingsEditor" timestamp="1617243836776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615361113517" />
-    <state x="1038" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1617237536341">
+    <state x="440" y="98" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1617243836776" />
+    <state x="1038" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1617425026031">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1038" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617237536341" />
+    <state x="1038" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617425026031" />
     <state x="658" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615361067837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

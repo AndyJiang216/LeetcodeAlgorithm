@@ -1,4 +1,4 @@
-package com.jianglong.divideAL;
+package com.jianglong.dynamicAndGreddyAL;
 
 /*KMP字符串匹配算法*/
 public class KMPMatchAL {
