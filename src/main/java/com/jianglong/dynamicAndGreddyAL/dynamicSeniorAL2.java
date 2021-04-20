@@ -75,6 +75,30 @@ public class dynamicSeniorAL2 {
 
         return Math.min(dp[n-1][0],Math.min(dp[n-1][1],dp[n-1][2]));
     }
+    //当油漆的选择有k种时
+    public int minCostII(int[][] costs) {
+        if(costs==null || costs.length==0) return 0;
+        int n=costs.length,k=costs[0].length;
+        int[][] dp=new int[n][k];
+        for (int i = 0; i < k; i++) {
+            dp[0][i]=costs[0][i];
+        }
+        for (int i = 1; i < n; i++) {
+            Arrays.fill(dp[i],Integer.MAX_VALUE);
+        }
+        for (int i = 1; i < n; i++) {
+            for (int j = 0; j < k; j++) {
+                for (int m = 0; m < k; m++) {
+                    if(m!=j) dp[i][m]=Math.min(dp[i-1][j]+costs[i][m],dp[i][m]);
+                }
+            }
+        }
+        int result=Integer.MAX_VALUE;
+        for (int i = 0; i < k; i++) {
+            result=Math.min(result,dp[n-1][i]);
+        }
+        return result;
+    }
 
     /*打家劫舍*/
     /*你是一个专业的小偷，计划偷窃沿街的房屋。每间房内都藏有一定的现金，影响你偷窃的唯一制约因素就是相邻的房屋装有相互连通的防盗系统，如果两间相邻的房屋在同一晚上被小偷闯入，系统会自动报警。
